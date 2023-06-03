@@ -8,7 +8,7 @@ using namespace std;
 const int maxn = 30000;
 // vx[i]: x 座標為 i 的鏡子，依照 y 座標排序。
 // vy[i]: y 座標為 i 的鏡子，依照 x 座標排序。
-vector <pair<int, int> > vx[maxn+5], vy[maxn*2+5];
+vector <pair<int, int> > vx[maxn], vy[maxn*2];
  
 int main(){
     ios_base::sync_with_stdio(0);
